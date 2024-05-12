@@ -1,17 +1,46 @@
 body{
   background-image: url('img/fondo\ de\ kirby.png');
   font-family: "Comic Sans MS", cursive;
+  color: #ffaaa5;
 }
 
-h1{
-  text-align: center;
+h3{
+  color: whitesmoke;
 }
+
+ul{
+  list-style-type: '❤';
+}
+
+ul, li, a{
+  margin: 0 0.2rem;
+  background-color: #ff8b94;
+  color: white;
+  text-decoration: none;
+}
+
+ul, li, a:hover{
+  color: #ffaaa5;
+ 
+}
+
 
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
   width: 70%;
+  border-radius: 20px;
+}
+
+.name{
+  text-align: center;
+  background-color: #ffaaa5;
+  z-index: -1;
+  color: whitesmoke;
+  border-radius: 20px;
+  height: 50px;
 }
 
 .main{
