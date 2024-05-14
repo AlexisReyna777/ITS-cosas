@@ -53,3 +53,159 @@ img {
   border: 5px solid #ffaaa5;
   border-radius: 20px;
 }
+
+.kirby{
+  position: sticky;
+  left: 80%;
+  bottom: 3%;
+  width: 180px;
+  height: 180px;
+  background-color: #fbb5cf;
+  border-radius: 100%;
+}
+
+
+.hand{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: #fbb5cf;
+  border-radius: 80% 30%;
+}
+
+.hand.rigth {
+  top: 35%;
+  right: 92%;
+  transform: rotate(80deg);
+}
+
+.hand.left {
+  top: 50%;
+  left: 90%;
+  transform: rotate(90deg);
+  
+}
+
+.foot {
+  position: absolute;
+  width: 40px;
+  height: 70px;
+  background-color: #ec5568;
+  
+}
+
+.foot.rigth{
+  top: 85%;
+  left: 17%;
+  transform: rotate(90deg);
+  border-radius: 90% 30% 80% 200%;
+}
+
+.foot.left{
+  top: 85%;
+  left: 60%;
+  transform: rotate(90deg);
+  border-radius: 200% 80% 30% 90%;
+}
+
+.eyes.rigth{
+  position: absolute;
+  width: 20px;
+  height: 50px;
+  background-color: black;
+  border-radius: 80%;
+  top: 20%;
+  left: 30%;
+}
+
+.eyes.left{
+  position: absolute;
+  width: 20px;
+  height: 50px;
+  background-color: black;
+  border-radius: 80%;
+  top: 20%;
+  left: 60%;
+}
+
+.int.rigth{
+  position: absolute;
+  width: 7%;
+  height: 8%;
+  background-color: white;
+  border-radius: 80%;
+  top: 22%;
+  left: 32%;
+}
+
+.int.left{
+  position: absolute;
+  width: 7%;
+  height: 8%;
+  background-color: white;
+  border-radius: 80%;
+  top: 22%;
+  left: 62%;
+}
+
+.int2.rigth{
+  position: absolute;
+  width: 7.5%;
+  height: 8.5%;
+  background-color: cornflowerblue;
+  border-radius: 30% 30% 100% 100%;
+  top: 38%;
+  left: 61.5%;
+  z-index: 1;
+}
+
+.int2.left{
+  position: absolute;
+  width: 7.5%;
+  height: 8.5%;
+  background: cornflowerblue;
+  border-radius: 30% 30% 100% 100%;
+  top: 38%;
+  left: 31.5%;
+  z-index: 1;
+}
+
+.freckles.rigth{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #df6da9;
+  top: 50%;
+  left: 15%;
+  border-radius: 90%;
+}
+
+.freckles.left{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #df6da9;
+  top: 50%;
+  left: 75%;
+  border-radius: 90%;
+}
+
+.mouth{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: brown;
+  border-radius: 20% 20% 50% 50%;
+  top: 48%;
+  left: 42%;
+}
+
+.tongue{
+  position: absolute;
+  width: 25px;
+  height: 15px;
+  background-color: pink;
+  border-radius: 20% 20% 50% 50%;
+  top: 55.5%;
+  left: 43.5%;
+}
